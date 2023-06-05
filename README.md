@@ -23,7 +23,8 @@
 
 # Description
 
-Description
+ Welcome to the Python world! 
+ Python projects .
 
 # Table of Content 
  0x00. Python - Hello, World
