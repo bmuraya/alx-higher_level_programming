@@ -2,7 +2,7 @@
 """Task 0"""
 
 class square:
-        """This is an empty class"""
+        """An empty class Square"""
         pass
       
 
