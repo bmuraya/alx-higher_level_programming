@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task"""
+"""Task Size validation"""
 
 
 class Square:
