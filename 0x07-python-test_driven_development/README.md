@@ -15,4 +15,10 @@ Project aims to learn about docstrings to create and implement tests in **Python
 | `tests/6-max_integer_test.py` | Unittests for the function `def max_integer(list=[])` |
 | `100-matrix_mul.py` | Function that multiplies 2 matrices (Doctest on `tests/100-matrix_mul.txt`) |
 | `101-lazy_matrix_mul.py` | Function that multiplies 2 matrices by using the module **NumPy** (Doctest on `tests/101-lazy_matrix_mul.txt`) |
+<<<<<<< HEAD
 | `102-python.c` | Function that prints Python strings |
+=======
+| `102-python.c` | Function that prints Python strings |
+
+
+>>>>>>> f268740483f3d6b82ee84a07b06df0b2236211de
