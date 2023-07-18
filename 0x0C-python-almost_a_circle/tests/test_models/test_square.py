@@ -6,12 +6,13 @@ Unittest for Square Class
 """
 
 
-import os
 import unittest
-import models.base
-from models.base import Base
-from models.rectangle import Rectangle
+from io import StringIO
+from unittest.mock import patch
+import models.square
 from models.square import Square
+from models.rectangle import Rectangle
+from models.base import Base
 
 class Test_Base_Documentation(unittest.TestCase):
     """Unit test to test for correct documentation"""
