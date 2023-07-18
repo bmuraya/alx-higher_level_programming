@@ -6,12 +6,12 @@ Unittest for Square Class
 """
 
 
+import os
 import unittest
-import pep8
-from io import StringIO
-from contextlib import redirect_stdout
-from models import square
-Square = square.Square
+import models.base
+from models.base import Base
+from models.rectangle import Rectangle
+from models.square import Square
 
 class Test_Base_Documentation(unittest.TestCase):
     """Unit test to test for correct documentation"""
