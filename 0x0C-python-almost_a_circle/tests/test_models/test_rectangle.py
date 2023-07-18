@@ -6,13 +6,12 @@ Unittest for Rectangle Class
 """
 
 
-import os
-import pep8
 import unittest
 from io import StringIO
-from contextlib import redirect_stdout
-from models import rectangle
-Rectangle = rectangle.Rectangle
+from unittest.mock import patch
+from models.base import Base
+import models.rectangle
+from models.rectangle import Rectangle
 
 class Test_Base_Documentation(unittest.TestCase):
     """Unit test to test for correct documentation"""
