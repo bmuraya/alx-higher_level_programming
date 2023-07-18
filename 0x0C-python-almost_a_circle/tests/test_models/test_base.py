@@ -14,28 +14,16 @@ from models import rectangle
 Base = base.Base
 Rectangle = rectangle.Rectangle
 
-class Test_Base_Documentation(unittest.TestCase):
-    """Unit test to test for correct documentation"""
 
-    def test_module_doc(self):
-        """test modules documentation"""
-        self.assertGreaterEqual(len(models.base.__doc__), 1)
-
-    def test_class_doc(self):
-        """tests class' documentation"""
-        self.assertGreaterEqual(len(Base.__doc__), 1)
-
-    def test_func_doc(self):
-        """tests all methods for documentation"""
-        self.assertGreaterEqual(len(Base.__init__.__doc__), 1)
-        self.assertGreaterEqual(len(Base.to_json_string.__doc__), 1)
-        self.assertGreaterEqual(len(Base.create.__doc__), 1)
-        self.assertGreaterEqual(len(Base.draw.__doc__), 1)
-        self.assertGreaterEqual(len(Base.from_json_string.__doc__), 1)
-        self.assertGreaterEqual(len(Base.load_from_file.__doc__), 1)
-        self.assertGreaterEqual(len(Base.save_to_file.__doc__), 1)
-        self.assertGreaterEqual(len(Base.load_from_file_csv.__doc__), 1)
-        self.assertGreaterEqual(len(Base.save_to_file_csv.__doc__), 1)
+class TestPep8(unittest.TestCase):
+    """Pep8 models/base.py & tests/test_models/test_base.py"""
+    def test_pep8(self):
+        """Pep8"""
+        style = pep8.StyleGuide(quiet=False)
+        errors = 0
+        files = ["models/base.py", "tests/test_models/test_base.py"]
+        errors += style.check_files(files).total_errors
+        self.assertEqual(errors, 0, 'Need to fix Pep8')
 
 
 class TestBase(unittest.TestCase):
