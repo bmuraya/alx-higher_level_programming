@@ -15,10 +15,13 @@ Base = base.Base
 Rectangle = rectangle.Rectangle
 
 
-class Test_Base_Documentation(unittest.TestCase):
-    """Unit test to test for correct documentation"""
 
-    def test_module_doc(self):
+
+
+class TestPep8(unittest.TestCase):
+    """Pep8 models/base.py & tests/test_models/test_base.py"""
+
+   def test_module_doc(self):
         """test modules documentation"""
         self.assertGreaterEqual(len(models.base.__doc__), 1)
 
@@ -38,10 +41,7 @@ class Test_Base_Documentation(unittest.TestCase):
         self.assertGreaterEqual(len(Base.load_from_file_csv.__doc__), 1)
         self.assertGreaterEqual(len(Base.save_to_file_csv.__doc__), 1)
 
-
-
-class TestPep8(unittest.TestCase):
-    """Pep8 models/base.py & tests/test_models/test_base.py"""
+    
     def test_pep8(self):
         """Pep8"""
         style = pep8.StyleGuide(quiet=False)
