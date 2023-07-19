@@ -6,11 +6,9 @@ Unittest for Base Class
 """
 
 import unittest
-import re
 import pep8
 import json
 import os, sys
-import subprocess
 from models import base
 from models import rectangle
 Base = base.Base
