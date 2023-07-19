@@ -6,6 +6,7 @@ Unittest for Base Class
 """
 
 import unittest
+import re
 import pep8
 import json
 import os
