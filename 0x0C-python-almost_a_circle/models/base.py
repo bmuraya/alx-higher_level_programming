@@ -4,8 +4,8 @@
 This module contains the Base class which is the parent class of all the
 other classes in the models package.
 
-Date: 13/07/2023
-Author: Bradley Dillion Gilden
+Date: 18/07/2023
+Author: Babu Muraya
 """
 
 

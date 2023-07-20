@@ -3,8 +3,8 @@
 """
 This module contains the Rectangle class which inherits from the Base class
 
-Date: 13/07/2023
-Author: Bradley Dillion Gilden
+Date: 18/07/2023
+Author: Babu Muraya
 """
 
 

@@ -22,8 +22,8 @@ This module is for testing the rectangel module
 | 416  || Test_Square_Out              |
 +------++------------------------------+
 
-Date: 13/07/2023
-Author: Bradley Dillion Gilden
+Date: 18/07/2023
+Author: Babu Muraya
 """
 
 import unittest
