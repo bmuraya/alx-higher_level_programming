@@ -1,4 +1,4 @@
-   # JavaScript - Warm up
+# JavaScript - Warm up
 It aims to learn about JavaScript, identity and data types in **Python**.
 
 # Learning Objectives
@@ -30,3 +30,4 @@ All `.txt` files store the answers to the questions asked by ALX staff.
 | `0-javascript_is_amazing.js` | a script that prints “JavaScript is amazing”: |
 | `1-multi_languages.js` | a script that prints 3 lines: |
 | `2-arguments.js` | a script that prints a message depending of the number of arguments passed |
+
