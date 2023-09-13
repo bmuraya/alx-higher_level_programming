@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task"""
+"""Square with size"""
 
 
 class Square:

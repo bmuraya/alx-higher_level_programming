@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task"""
+"""Task Print Square instance"""
 
 
 class Square:

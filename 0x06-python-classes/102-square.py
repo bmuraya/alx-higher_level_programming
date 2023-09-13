@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task"""
+"""Task Compare 2 squares"""
 
 
 class Square:
